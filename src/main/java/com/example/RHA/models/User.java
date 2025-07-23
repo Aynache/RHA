@@ -7,11 +7,7 @@ import jakarta.validation.constraints.NotEmpty;
 import lombok.*;
 import java.util.Set;
 
-//@Setter
-//@Getter
-//@NoArgsConstructor
-//@AllArgsConstructor
-//@Builder
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
