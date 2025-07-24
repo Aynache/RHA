@@ -1,5 +1,7 @@
 package com.example.RHA.security;
 
+
+
 import com.example.RHA.services.CustomUserDetailsService;
 import com.example.RHA.services.JwtService;
 import io.micrometer.common.lang.NonNull;
@@ -22,7 +24,6 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     private final JwtService jwtService;
     private final CustomUserDetailsService userDetailsService;
 
-    /* ────────────────  constructeur explicite  ──────────────── */
     public JwtAuthFilter(JwtService jwtService,
                          CustomUserDetailsService userDetailsService) {
         this.jwtService = jwtService;
